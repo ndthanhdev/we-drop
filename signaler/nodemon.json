@@ -1,0 +1,5 @@
+{
+  "delay": "2s",
+  "exec": "go run ./main.go",
+  "ext": "go"
+}

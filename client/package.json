@@ -1,0 +1,29 @@
+{
+  "name": "we-drop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ndthanhdev/we-drop.git",
+  "author": "ndthanhdev <ndthanhdev@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-dotenv": "^2.0.5",
+    "@snowpack/plugin-react-refresh": "^2.3.8",
+    "@snowpack/plugin-typescript": "^1.1.1",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/simple-peer": "^9.6.1",
+    "snowpack": "~2.18.1",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "recoil": "^0.1.2",
+    "simple-peer": "^9.9.3"
+  }
+}
